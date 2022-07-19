@@ -1,0 +1,23 @@
+* {
+    /*margin and padding set to 0 moves the contents to right most part of the page without any spaces*/
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;/*changes the font family*/
+  }  
+  /*Sets the navigation menu to flex box*/
+
+.nav-class{
+    font-size: 18px;
+    background-color: black;
+    text-decoration: none;
+}
+.logo{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    width: 15%;
+    text-align: center;
+}
+.nav-links{
+    text-decoration: none;
+}
