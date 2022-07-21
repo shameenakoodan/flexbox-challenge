@@ -23,43 +23,62 @@
     </header>
     <div class="header2">
         <i class="fa-solid fa-filter"></i>
-        Search<input type="text">
-        <label for="cars">Choose an option</label>
+        <div>
+            <label for="search">Search</label>
+            <input type="text" id="search">
+        </div>
+        <div>
+            <label for="options">Choose an option</label>
+            <select name="options" id="options">
+                <option value="option1">Option 1</option>
+                <option value="option1">Option 2</option>
+                <option value="option1">Option 3</option>
+                <option value="option1">Option 4</option>
+            </select>
+        </div>
 
-        <select name="options" id="options">
-            <option value="option1">Option 1</option>
-            <option value="option1">Option 2</option>
-            <option value="option1">Option 3</option>
-            <option value="option1">Option 4</option>
-        </select>
     </div>
     <main>
         <div class="flex-container">
             <div class="flex-left">
-                <div class="card">
-                    <h3>Panel #1</h3>
-
-                </div>
-                <div class="card">
-                    <h3>Panel #2</h3>
-                    <p>
-                    <ul>
-                        <li>Lorem ipsum listum itum</li>
-                        <li>Lorem ipsum listum itum</li>
-                        <li>Lorem ipsum listum itum</li>
-                    </ul>
-                    </p>
-                </div>
-                <div class="card">
-                    <h3>Panel #3</h3>
-                    <p>
-                    <ul>
-                        <li>Lorem ipsum listum itum</li>
-                        <li>Lorem ipsum listum itum</li>
-                        <li>Lorem ipsum listum itum</li>
-                    </ul>
-                    </p>
-                </div>
+                <section class="first-row">
+                    <div class="card">
+                        <h3>Title 1</h3>
+                        <h4>Subtitle</h2>
+                        <i class="fas fa-image"></i>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    </div>
+                    <div class="card">
+                        <h3>Title 1</h3>
+                        <h4>Subtitle</h2>
+                    </div>
+                    <div class="card">
+                        <h3>Title 1</h3>
+                        <h4>Subtitle</h2>
+                    </div>
+                    <div class="card">
+                        <h3>Title 1</h3>
+                        <h4>Subtitle</h2>
+                    </div>
+                </section>
+                <section class="first-row">
+                    <div class="card">
+                        <h3>Title 1</h3>
+                        <h4>Subtitle</h2>
+                    </div>
+                    <div class="card">
+                        <h3>Title 1</h3>
+                        <h4>Subtitle</h2>
+                    </div>
+                    <div class="card">
+                        <h3>Title 1</h3>
+                        <h4>Subtitle</h2>
+                    </div>
+                    <div class="card">
+                        <h3>Title 1</h3>
+                        <h4>Subtitle</h2>
+                    </div>
+                </section>                
             </div>
             <div class="flex-right">
                 <h3>Right-hand panel</h3>

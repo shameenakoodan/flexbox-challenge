@@ -6,8 +6,7 @@
   }  
   /*Sets the navigation menu to flex box*/
 main {
-    width: 95%;
-    margin: 25px auto;
+    border: 1px solid black;
     height: 610px;
     display: flex;
     justify-content: space-between;
@@ -16,7 +15,7 @@ main {
     display: flex;
     flex-direction: row;
     font-size: 18px;
-    justify-content: space-between;
+    flex-grow: 1;
     background-color: black;
   }
 .logo{
@@ -44,9 +43,8 @@ nav a:hover{
 }
 .flex-left{
     display: flex;
-    flex-direction: column;
     width: 75%;
-    justify-content: space-evenly;
+    flex-direction: column;
 }
 .flex-right{
     width: 25%;
@@ -61,14 +59,18 @@ nav a:hover{
 .card{
     border: 2px solid;
     text-align: left;
-    margin-right: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
     padding-top: 10px;
+    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 h3{
     text-align: left;
 }
 .flex-left .card h3{
-    margin-left: 12px;
+    margin-left: 2px;
 }
 li {
     margin-top: 20px;
@@ -82,5 +84,12 @@ ul {
     background-color: grey;
 }
 .header2{
+    display: flex;
     padding: 10px;
+    justify-content:space-around;
+}
+.first-row{
+    display: flex;
+    flex-direction: row;
+    
 }
