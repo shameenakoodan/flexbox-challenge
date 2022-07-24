@@ -37,25 +37,12 @@ nav a:hover{
     background-color: darkgrey;
     color:cadetblue;
 }
+
 .flex-container{
     display: flex;
-    flex-direction: row;
-}
-.flex-left{
-    display: flex;
-    width: 75%;
-    flex-direction: column;
     padding-top: 10px;
-}
-.flex-right{
-    width: 25%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: 10px;
-    border: 2px solid;
-    padding-top: 10px;
-    height: max-content;
-    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .card{
     border: 2px solid;
@@ -63,9 +50,9 @@ nav a:hover{
     margin-top: 10px;
     margin: 10px;
     padding-top: 12px;
-    height: 33vh;
-    width: 33vh;
     padding-left: 10px;
+    width: 100%;
+    max-width: 20%;
 }
 h3{
     text-align: left;
@@ -89,8 +76,23 @@ ul {
     padding: 10px;
     justify-content:space-around;
 }
-.first-row{
+.flex-rows{
     display: flex;
     flex-direction: row;
     
 }
+.image-class{
+    background-color:lightgray;
+    text-align: center;
+    margin-right: 10px;
+}
+img{
+    width: 40%;
+    height: 40%;
+    padding: 15%;
+}
+@media only screen and (max-width: 600px) {
+    .card {
+      max-width: 40%;
+    }
+  }
